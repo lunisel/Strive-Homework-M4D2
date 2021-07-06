@@ -1,7 +1,7 @@
 import {Jumbotron, Container} from "react-bootstrap"
 
 const MyJumbotron = () => (
-<Jumbotron fluid>
+<Jumbotron fluid className="mt-2">
   <Container style={{backgroundColor: "gray"}}>
     <h1>Welcome to My Book Store</h1>
     <p>
